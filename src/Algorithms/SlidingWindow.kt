@@ -25,7 +25,7 @@ class MaxSumSubArray {
             // when i reach the third element at the sub array
             if (i >= k - 1) {
                 maxValue = maxOf(maxValue, currentSum) // record this maximum value
-                currentSum -= array[i - (k - 1)] // move the nex sub array by removing first element
+                currentSum -= array[i - (k - 1)] // move the next sub array by removing first element
             }
         }
 
